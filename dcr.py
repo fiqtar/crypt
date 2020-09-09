@@ -1,9 +1,9 @@
 import json
 
-with open('sc_cfgs.json', 'r') as reader:
+with open('cr_cfgs.json', 'r') as reader:
     cfg = reader.read()
     
-def cr():
+def dcr():
     data_link = json.loads(cfg)['link']
     # cdir /data/
     # mkdir /id_dcr/
